@@ -1,0 +1,653 @@
+C:\Users\stadigital\mobileauth>npm start
+
+> mobileauth@0.1.0 start C:\Users\stadigital\mobileauth
+> react-scripts start
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+./src/store/firebaseService.js
+  Line 95:7:   'currentUserId' is assigned a value but never used  no-unused-vars
+  Line 152:7:  'currentUserId' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminer le programme de commandes (O/N) ? o
+
+C:\Users\stadigital\mobileauth>npm start
+
+> mobileauth@0.1.0 start C:\Users\stadigital\mobileauth
+> react-scripts start
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+./src/store/firebaseService.js
+  Line 95:7:   'currentUserId' is assigned a value but never used  no-unused-vars
+  Line 152:7:  'currentUserId' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminer le programme de commandes (O/N) ? o
+
+C:\Users\stadigital\mobileauth>cd functions
+
+C:\Users\stadigital\mobileauth\functions>firebase emulator:start
+Error: emulator:start is not a Firebase command
+
+Did you mean emulators:export?
+
+C:\Users\stadigital\mobileauth\functions>firebase start:emulator
+Error: start:emulator is not a Firebase command
+
+C:\Users\stadigital\mobileauth\functions>firebase emulators:start
+i  emulators: Starting emulators: functions
+!  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, hosting, pubsub
++  functions: Using node@10 from host.
+i  ui: Emulator UI logging to ui-debug.log
+i  functions: Watching "C:\Users\stadigital\mobileauth\functions" for Cloud Functions...
+!  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
++  functions[app]: http function initialized (http://localhost:5055/archivelogapp-1593534474479/us-central1/app).
+
+┌───────────────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! View status and logs at http://localhost:4000 │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5055 │ http://localhost:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Other reserved ports: 4400, 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+
+
+i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown.
+i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now.
+i  emulators: Shutting down emulators.
+i  hub: Stopping emulator hub
+i  ui: Stopping Emulator UI
+i  logging: Stopping Logging Emulator
+i  functions: Stopping Functions Emulator
+!  Emulator UI has exited upon receiving signal: SIGINT
+Terminer le programme de commandes (O/N) ? o
+
+C:\Users\stadigital\mobileauth\functions>firebase login
+Already logged in as smtpsendertester@gmail.com
+
+C:\Users\stadigital\mobileauth\functions>firebase emulators:start
+i  emulators: Starting emulators: functions
+!  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: firestore, database, hosting, pubsub
++  functions: Using node@10 from host.
+i  ui: Emulator UI logging to ui-debug.log
+i  functions: Watching "C:\Users\stadigital\mobileauth\functions" for Cloud Functions...
+!  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
++  functions[app]: http function initialized (http://localhost:5055/archivelogapp-1593534474479/us-central1/app).
+
+┌───────────────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! View status and logs at http://localhost:4000 │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5055 │ http://localhost:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Other reserved ports: 4400, 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+
+!  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+i  functions: Beginning execution of "app"
+!  Google API requested!
+   - URL: "https://www.googleapis.com/oauth2/v4/token"
+   - Be careful, this may be a production service.
+>  { password: 'Bpm654321',
+>    reset: false,
+>    passwdFirebase: 'Smpt29062020',
+>    toknSession: '',
+>    block: true,
+>    tokenStore: 'Yume1nIXzEUjhtCReeFn6Ose0icD969O',
+>    name: 'Med',
+>    Id: 'Bpm/123',
+>    active: true,
+>    role: 'admin',
+>    emailFirebase: 'smtpsendertester@gmail.com',
+>    userID: 10234567890 }
+>  { password: '123456789oC',
+>    name: 'lemrabott',
+>    emailFirebase: 'llemrabott52@gmail.com',
+>    id: '5464',
+>    passwdFirebase: 'NM12345' }
+i  functions: Finished "app" in ~6s
+!  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+
+i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown.
+i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now.
+i  emulators: Shutting down emulators.
+i  hub: Stopping emulator hub
+i  ui: Stopping Emulator UI
+i  logging: Stopping Logging Emulator
+i  functions: Stopping Functions Emulator
+!  Emulator UI has exited upon receiving signal: SIGINT
+Terminer le programme de commandes (O/N) ? o
+
+C:\Users\stadigital\mobileauth\functions>cd ..
+
+C:\Users\stadigital\mobileauth>npm start
+
+> mobileauth@0.1.0 start C:\Users\stadigital\mobileauth
+> react-scripts start
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/LoginPage.js
+  Line 19:11:  'name' is assigned a value but never used    no-unused-vars
+  Line 20:11:  'passwd' is assigned a value but never used  no-unused-vars
+  Line 21:34:  Expected '===' and instead saw '=='          eqeqeq
+  Line 21:76:  Expected '===' and instead saw '=='          eqeqeq
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/LoginPage.js
+  Line 21:34:  Expected '===' and instead saw '=='  eqeqeq
+  Line 21:71:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/LoginPage.js
+  Line 22:34:  Expected '===' and instead saw '=='  eqeqeq
+  Line 22:71:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/LoginPage.js
+  Line 22:34:  Expected '===' and instead saw '=='  eqeqeq
+  Line 22:71:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+Compiled with warnings.
+
+./src/components/Home/Home.js
+  Line 14:11:  'onListPage' is assigned a value but never used  no-unused-vars
+
+./src/pages/LoginPage.js
+  Line 22:34:  Expected '===' and instead saw '=='  eqeqeq
+  Line 22:71:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/pages/HomePage.js
+  Line 3:9:   'IonTitle' is defined but never used       no-unused-vars
+  Line 3:19:  'IonMenuButton' is defined but never used  no-unused-vars
+  Line 3:90:  'IonButton' is defined but never used      no-unused-vars
+  Line 6:8:   'Home' is defined but never used           no-unused-vars
+  Line 7:8:   'Menu' is defined but never used           no-unused-vars
+
+./src/components/TabContainer.js
+  Line 4:10:  'IonTabs' is defined but never used  no-unused-vars
+
+./src/store/firebaseService.js
+  Line 95:7:   'currentUserId' is assigned a value but never used  no-unused-vars
+  Line 152:7:  'currentUserId' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

@@ -7,17 +7,24 @@ import { inject, observer } from "mobx-react";
 class LoginPage extends Component {
   constructor(props) {
     super(props);
-    this.state = { showErrorToast: true, errMsg: true};
+    this.state = { showErrorToast: true, errMsg: "please login"};
     this.email = React.createRef();
     this.password = React.createRef();
+    this.name=React.createRef();
+    this.passwd=React.createRef();
   }
   componentDidMount() {}
   _doLogin = async history => {
     try {
+      let name="llemrabott@gmail.com";
+      let passwd="123456";
+      debugger;
+      if(this.email.current.value==name && this.password.current.value==passwd){
       let r = await this.props.store.doLogin(this.email.current.value, this.password.current.value);
       if (r.code) {
         throw r;
-      } 
+      }
+    } 
     } catch (e) {
       this.setState(() => ({ showErrorToast: true, errMsg: e.message }));
     }
@@ -33,7 +40,7 @@ class LoginPage extends Component {
           <IonText color="danger" padding style={{ fontWeight: "50" }}>
             {initializationError && initializationError.message}
           </IonText>
-          <BasicPage title="Login Page" hasMenu renderContent={history => {
+          <BasicPage title="Login Page" hasMenu="true" renderContent={history => {
               return (
                 <>
                   <IonItem>
@@ -59,7 +66,7 @@ class LoginPage extends Component {
           />
           <IonToast color="danger" isOpen={this.state.showErrorToast} onDidDismiss={() => 
                this.setState(() => ({ showErrorToast: false }) )}
-               message={this.state.errMsg} duration={5000}/>
+               message={this.state.errMsg} duration={500}/>
         </>
       );
     }

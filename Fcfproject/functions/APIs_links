@@ -1,0 +1,8 @@
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/hello-word;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/create;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/read/:id;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/read;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/connexion;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/isConnected;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/updatepassword;
+https://us-central1-archivelogapp-1593534474479.cloudfunctions.net/app/api/deconnexion;
